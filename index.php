@@ -15,16 +15,16 @@
 <div class="container text-center p-3">
     <form action="badwords.php" method="get">
 
-    <h1>Put your text here!</h1>
+        <label for="paragraph">Put your text here</label>
         <div>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="paragraph" id="paragraph" cols="30" rows="10"></textarea>
         </div>
 
-        <h2>select your censored word</h2>
-        <input type="text" class="mb-3">
+        <label for="word">select your censored word</label>
+        <input type="text" class="mb-3" name="word">
 
         <div>
-        <button type="button" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
         </div>
         
     </form>
